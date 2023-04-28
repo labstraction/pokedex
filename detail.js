@@ -29,7 +29,7 @@ function displayPokemon(pokemon){
 
     const typesContainer = document.getElementById('pokemon-types');
     for (const type of pokemon.types) {
-        typesContainer.innerHTML += `<li><strong>${type.name}</strong> ${type.url}</li>`
+        typesContainer.innerHTML += `<li><a href="./type.html?typeUrl=${type.url}"><strong>${type.name}</strong></a></li>`
     }
 }
 
