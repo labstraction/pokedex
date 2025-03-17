@@ -43,3 +43,6 @@ function render(data){
 
 }
 
+///API MAGIC COMPITO
+
+//https://api.magicthegathering.io/v1/cards?page=1
