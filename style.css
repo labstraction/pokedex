@@ -1,0 +1,4 @@
+#dex-container{
+    display: flex;
+    flex-direction: column;
+}
